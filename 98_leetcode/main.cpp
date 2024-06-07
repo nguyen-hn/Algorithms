@@ -6,8 +6,7 @@ int main() {
     std::cin.tie(0);
     std::cout.tie(0);
     Solution sol;
-    
-    std::vector<std::string> dict{"cat", "bat", "rat"};
-    std::string sentence = "the cattle was rattled by the battery";
-    cout << sol.replaceWords(dict, sentence) << endl;
+    int row = 3, col = 3;
+    vector<vector<int>> cells = {{1,2}, {2,1}, {3,3}, {2,2}, {1,1}, {1,3}, {2,3}, {3,2}, {3,1}};
+    cout << sol.latestDayToCross(row, col, cells) << endl;
 }
