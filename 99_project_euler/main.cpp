@@ -14,4 +14,8 @@ int main() {
     euler.LargestPalindromeProduct();
     euler.SmallestMultiple();
     euler.SumSquareDifference();
+    euler.TenThousandOnePrime();
+    euler.LargestProductInSeries();
+
+    return 0;
 }
