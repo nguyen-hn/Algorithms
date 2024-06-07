@@ -11,4 +11,7 @@ int main() {
     euler.MultiplesOf3And5();
     euler.EvenFibonacciNumbers();
     euler.LargestPrimeFactor();
+    euler.LargestPalindromeProduct();
+    euler.SmallestMultiple();
+    euler.SumSquareDifference();
 }
