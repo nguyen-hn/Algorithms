@@ -7,8 +7,7 @@ int main() {
     std::cout.tie(0);
     Solution sol;
     
-    std::vector<int> hand{1,2,3,6,2,3,4,7,8};
-    int groupSize = 3;
-
-    cout << sol.isNStraightHand(hand, groupSize) << endl;
+    std::vector<std::string> dict{"cat", "bat", "rat"};
+    std::string sentence = "the cattle was rattled by the battery";
+    cout << sol.replaceWords(dict, sentence) << endl;
 }
