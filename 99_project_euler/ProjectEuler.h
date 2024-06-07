@@ -15,6 +15,7 @@ public:
     void TenThousandOnePrime();
     void LargestProductInSeries();
     void SpecialPythagoreanTriplet();
+    void SummationOfPrimes();
 private:
     void sieveEratosthenes(int n);
 
