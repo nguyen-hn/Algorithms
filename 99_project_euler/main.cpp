@@ -16,6 +16,7 @@ int main() {
     euler.SumSquareDifference();
     euler.TenThousandOnePrime();
     euler.LargestProductInSeries();
+    euler.SpecialPythagoreanTriplet();
 
     return 0;
 }
