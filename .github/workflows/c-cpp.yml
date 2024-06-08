@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
     - name: Build leetcode project
       run: cd 98_leetcode && cmake -Bbuild . && cmake --build build
     - name: build project euler
