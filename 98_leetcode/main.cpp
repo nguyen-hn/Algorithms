@@ -6,7 +6,8 @@ int main() {
     std::cin.tie(0);
     std::cout.tie(0);
     Solution sol;
-    int row = 3, col = 3;
-    vector<vector<int>> cells = {{1,2}, {2,1}, {3,3}, {2,2}, {1,1}, {1,3}, {2,3}, {3,2}, {3,1}};
-    cout << sol.latestDayToCross(row, col, cells) << endl;
+
+    vector<int> nums {22,2,4,6,7};
+    int k = 6;
+    cout << sol.checkSubarraySum(nums, k) << endl;
 }
