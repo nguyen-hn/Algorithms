@@ -10,6 +10,8 @@ using namespace std;
 
 class Solution {
 public:
+    // 523 Continuous Subarray Sum
+    bool checkSubarraySum(vector<int>& nums, int k);
     // 846. Hand of Straights
     bool isNStraightHand(vector<int>& hand, int groupSize);
     // 648 Replace Words
