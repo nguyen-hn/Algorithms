@@ -18,6 +18,7 @@ int main() {
     euler.LargestProductInSeries();
     euler.SpecialPythagoreanTriplet();
     euler.SummationOfPrimes();
+    euler.LargestProductInGrid();
 
     return 0;
 }

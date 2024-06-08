@@ -16,6 +16,7 @@ public:
     void LargestProductInSeries();
     void SpecialPythagoreanTriplet();
     void SummationOfPrimes();
+    void LargestProductInGrid();
 private:
     void sieveEratosthenes(int n);
 
