@@ -1,4 +1,5 @@
 #include "Solution.h"
+#include <cassert>
 #include <iostream>
 
 int main() {
@@ -7,7 +8,10 @@ int main() {
     std::cout.tie(0);
     Solution sol;
 
-    vector<int> nums {4, 5,0, -2, -3, 1};
-    int k = 5;
-    cout << sol.subarrayDibByK(nums, k) << endl;
+    string s = "abc";
+    assert(sol.clearDigits(s) == "abc");
+
+    vector<int> skills {4,2,6,3,9};
+    int k = 2;
+    assert(sol.findWinningPlayer(skills, k) == 2);
 }
