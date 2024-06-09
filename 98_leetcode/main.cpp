@@ -7,7 +7,7 @@ int main() {
     std::cout.tie(0);
     Solution sol;
 
-    vector<int> nums {22,2,4,6,7};
-    int k = 6;
-    cout << sol.checkSubarraySum(nums, k) << endl;
+    vector<int> nums {4, 5,0, -2, -3, 1};
+    int k = 5;
+    cout << sol.subarrayDibByK(nums, k) << endl;
 }

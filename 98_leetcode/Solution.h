@@ -12,10 +12,12 @@ class Solution {
 public:
     // 523 Continuous Subarray Sum
     bool checkSubarraySum(vector<int>& nums, int k);
-    // 846. Hand of Straights
-    bool isNStraightHand(vector<int>& hand, int groupSize);
     // 648 Replace Words
     string replaceWords(vector<string>& dictionary, string sentence);
+    // 846. Hand of Straights
+    bool isNStraightHand(vector<int>& hand, int groupSize);
+    // 974 Subarray Sums Divisible by K
+    int subarrayDibByK(vector<int>& nums, int k);
     // 1970 Last Day Where You can Still Cross
     int latestDayToCross(int row, int col, vector<vector<int>>& cells);
 
