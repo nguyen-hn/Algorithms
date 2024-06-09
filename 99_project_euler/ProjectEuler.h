@@ -17,6 +17,8 @@ public:
     void SpecialPythagoreanTriplet();
     void SummationOfPrimes();
     void LargestProductInGrid();
+    void HighlyDivisibleTriangularNumber();
+    void LargeSum();
 private:
     void sieveEratosthenes(int n);
 

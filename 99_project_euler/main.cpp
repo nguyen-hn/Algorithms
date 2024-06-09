@@ -19,6 +19,8 @@ int main() {
     euler.SpecialPythagoreanTriplet();
     euler.SummationOfPrimes();
     euler.LargestProductInGrid();
+    euler.HighlyDivisibleTriangularNumber();
+    euler.LargeSum();
 
     return 0;
 }
