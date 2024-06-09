@@ -21,6 +21,7 @@ int main() {
     euler.LargestProductInGrid();
     euler.HighlyDivisibleTriangularNumber();
     euler.LargeSum();
+    euler.LongestCollatzSequence();
 
     return 0;
 }

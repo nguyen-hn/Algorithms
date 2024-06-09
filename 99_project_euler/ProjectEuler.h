@@ -19,6 +19,7 @@ public:
     void LargestProductInGrid();
     void HighlyDivisibleTriangularNumber();
     void LargeSum();
+    void LongestCollatzSequence();
 private:
     void sieveEratosthenes(int n);
 
