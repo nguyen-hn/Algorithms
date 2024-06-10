@@ -22,6 +22,7 @@ int main() {
     euler.HighlyDivisibleTriangularNumber();
     euler.LargeSum();
     euler.LongestCollatzSequence();
+    euler.LatticePaths();
 
     return 0;
 }

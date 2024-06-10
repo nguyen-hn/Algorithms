@@ -20,6 +20,7 @@ public:
     void HighlyDivisibleTriangularNumber();
     void LargeSum();
     void LongestCollatzSequence();
+    void LatticePaths();
 private:
     void sieveEratosthenes(int n);
 
