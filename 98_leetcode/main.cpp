@@ -14,4 +14,9 @@ int main() {
     vector<int> skills {4,2,6,3,9};
     int k = 2;
     assert(sol.findWinningPlayer(skills, k) == 2);
+
+    vector<int> heights{1, 1, 4, 2, 1, 3};
+    assert(sol.heightChecker(heights) == 3);
+
+    return 0;
 }

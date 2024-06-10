@@ -19,6 +19,8 @@ public:
     bool isNStraightHand(vector<int>& hand, int groupSize);
     // 974 Subarray Sums Divisible by K
     int subarrayDibByK(vector<int>& nums, int k);
+    // 1051 Height Checker
+    int heightChecker(vector<int>& heights);
     // 1970 Last Day Where You can Still Cross
     int latestDayToCross(int row, int col, vector<vector<int>>& cells);
     
