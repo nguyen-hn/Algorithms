@@ -23,6 +23,6 @@ int main() {
     euler.LargeSum();
     euler.LongestCollatzSequence();
     euler.LatticePaths();
-
+    euler.AmicableNumbers();
     return 0;
 }

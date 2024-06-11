@@ -23,3 +23,21 @@ void ProjectEuler::sieveEratosthenes(int n)
         }
     }
 }
+
+int ProjectEuler::sumFactors(int n)
+{
+    int res = 1;
+    for(int i = 2; i < std::ceil(sqrt(n)) + 1; i++) {
+        if (n % i == 0) {
+            //std::cout << __FUNCTION__ << " " << i << ", " << (n/i) << ", ";
+            if (i != n/i) {
+                res = res + i + n/i;
+            } else {
+                // std::cout << __FUNCTION__ << "???\n";
+                res = res + i;
+            }
+        }
+    }
+    // std::cout << std::endl;
+    return res;
+}

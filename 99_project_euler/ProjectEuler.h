@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <vector>
+#include <cmath>
+#include <numeric>
 
 class ProjectEuler {
 public:
@@ -21,8 +23,10 @@ public:
     void LargeSum();
     void LongestCollatzSequence();
     void LatticePaths();
+    void AmicableNumbers();
 private:
     void sieveEratosthenes(int n);
+    int sumFactors(int n);
 
     std::vector<int> primes;
 };
