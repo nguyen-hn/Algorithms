@@ -18,5 +18,6 @@ int main() {
     vector<int> heights{1, 1, 4, 2, 1, 3};
     assert(sol.heightChecker(heights) == 3);
 
+
     return 0;
 }
