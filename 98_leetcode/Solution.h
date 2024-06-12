@@ -11,6 +11,10 @@ using namespace std;
 
 class Solution {
 public:
+    // 75 Sort Colors
+    void sortColors(vector<int>& nums);
+    // 390 Elimination Game
+    int lastRemaining(int n);
     // 523 Continuous Subarray Sum
     bool checkSubarraySum(vector<int>& nums, int k);
     // 648 Replace Words
