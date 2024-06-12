@@ -24,5 +24,6 @@ int main() {
     euler.LongestCollatzSequence();
     euler.LatticePaths();
     euler.AmicableNumbers();
+    euler.PrimePermutations();
     return 0;
 }

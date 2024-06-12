@@ -5,6 +5,7 @@
 #include <vector>
 #include <cmath>
 #include <numeric>
+#include <algorithm>
 
 class ProjectEuler {
 public:
@@ -24,6 +25,7 @@ public:
     void LongestCollatzSequence();
     void LatticePaths();
     void AmicableNumbers();
+    void PrimePermutations();
 private:
     void sieveEratosthenes(int n);
     int sumFactors(int n);
