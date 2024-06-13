@@ -23,6 +23,8 @@ int main() {
     euler.LargeSum();
     euler.LongestCollatzSequence();
     euler.LatticePaths();
+    euler.PowerDigitSum();
+    euler.NumberLetterCounts();
     euler.AmicableNumbers();
     euler.PrimePermutations();
     return 0;

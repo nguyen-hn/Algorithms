@@ -6,6 +6,7 @@
 #include <cmath>
 #include <numeric>
 #include <algorithm>
+#include <map>
 
 class ProjectEuler {
 public:
@@ -24,6 +25,8 @@ public:
     void LargeSum();
     void LongestCollatzSequence();
     void LatticePaths();
+    void PowerDigitSum();
+    void NumberLetterCounts();
     void AmicableNumbers();
     void PrimePermutations();
 private:
