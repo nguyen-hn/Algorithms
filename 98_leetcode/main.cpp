@@ -18,6 +18,8 @@ int main() {
     vector<int> heights{1, 1, 4, 2, 1, 3};
     assert(sol.heightChecker(heights) == 3);
 
-
+    vector<int> seats {3, 1, 5};
+    vector<int> students {2, 7, 4};
+    assert(sol.minMovesToSeat(seats, students) == 4);
     return 0;
 }
