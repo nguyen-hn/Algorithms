@@ -10,10 +10,21 @@
 
 using namespace std;
 
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x): val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right): val(x), left(left), right(right) {}
+};
+
 class Solution {
 public:
     // 75 Sort Colors
     void sortColors(vector<int>& nums);
+    // 110 Balanced Binary Tree
+    bool isBalanced(TreeNode* root);
     // 390 Elimination Game
     int lastRemaining(int n);
     // 523 Continuous Subarray Sum
@@ -22,6 +33,8 @@ public:
     string replaceWords(vector<string>& dictionary, string sentence);
     // 846. Hand of Straights
     bool isNStraightHand(vector<int>& hand, int groupSize);
+    // 945 Minimum Increment to Make Array Unique
+    int minIncrementForUnique(vector<int>& nums);
     // 974 Subarray Sums Divisible by K
     int subarrayDibByK(vector<int>& nums, int k);
     // 1051 Height Checker
@@ -52,8 +65,11 @@ protected:
         }
     };
 
+
     void insert_key(TrieNode* root, string& key);
     string search_root(TrieNode* root, string& key);
+
+    int height(TreeNode *root);
 
     bool dfs(int x, int y, vector<vector<int>>& grid, vector<vector<bool>>& visited);
 };

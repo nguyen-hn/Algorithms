@@ -21,5 +21,9 @@ int main() {
     vector<int> seats {3, 1, 5};
     vector<int> students {2, 7, 4};
     assert(sol.minMovesToSeat(seats, students) == 4);
+
+    vector<int> nums {3,2,1,2,1,7};
+    assert(sol.minIncrementForUnique(nums) == 6);
+
     return 0;
 }
