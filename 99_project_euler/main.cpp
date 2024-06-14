@@ -27,6 +27,7 @@ int main() {
     //euler.NumberLetterCounts();
     //euler.AmicableNumbers();
     //euler.PrimePermutations();
-    euler.DigitFactorials();
+    //euler.DigitFactorials();
+    euler.CircularPrimes();
     return 0;
 }

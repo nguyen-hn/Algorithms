@@ -7,6 +7,7 @@
 #include <numeric>
 #include <algorithm>
 #include <map>
+#include <cmath>
 
 class ProjectEuler {
 public:
@@ -30,6 +31,7 @@ public:
     void AmicableNumbers();
     void PrimePermutations();
     void DigitFactorials();
+    void CircularPrimes();
 private:
     void sieveEratosthenes(int n);
     int sumFactors(int n);
