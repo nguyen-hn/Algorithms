@@ -29,6 +29,7 @@ public:
     void NumberLetterCounts();
     void AmicableNumbers();
     void PrimePermutations();
+    void DigitFactorials();
 private:
     void sieveEratosthenes(int n);
     int sumFactors(int n);
