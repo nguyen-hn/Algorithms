@@ -29,6 +29,8 @@ public:
     void PowerDigitSum(); // 16
     void NumberLetterCounts(); // 17
     void MaximumPathSumI(); // 18
+    void CountingSundays(); // 19
+    void FactorialDigitSum(); // 20
     void AmicableNumbers(); // 18
     void PrimePermutations(); // 19
     void DigitFactorials(); // 20

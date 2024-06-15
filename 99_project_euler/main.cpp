@@ -29,6 +29,7 @@ int main() {
     //euler.PrimePermutations();
     //euler.DigitFactorials();
     //euler.CircularPrimes();
-    euler.MaximumPathSumI();
+    //euler.MaximumPathSumI();
+    euler.CountingSundays();
     return 0;
 }
