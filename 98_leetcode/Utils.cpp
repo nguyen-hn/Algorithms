@@ -47,3 +47,8 @@ bool Solution::dfs(int x, int y, std::vector<std::vector<int>> &grid
     }
     return res;
 }
+
+int Solution::height(TreeNode* root) {
+    if (root == nullptr) return 0;
+    return 1 + max(height(root->left), height(root->right));
+}
