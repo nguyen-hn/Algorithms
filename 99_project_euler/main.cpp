@@ -28,6 +28,7 @@ int main() {
     //euler.AmicableNumbers();
     //euler.PrimePermutations();
     //euler.DigitFactorials();
-    euler.CircularPrimes();
+    //euler.CircularPrimes();
+    euler.MaximumPathSumI();
     return 0;
 }
