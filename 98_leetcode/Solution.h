@@ -7,6 +7,7 @@
 #include <string>
 #include <stack>
 #include <cassert>
+#include <cmath>
 
 using namespace std;
 
@@ -29,6 +30,8 @@ public:
     int lastRemaining(int n);
     // 523 Continuous Subarray Sum
     bool checkSubarraySum(vector<int>& nums, int k);
+    // 633 Sum of Square Numbers
+    bool judgeSquareSum(int c);
     // 648 Replace Words
     string replaceWords(vector<string>& dictionary, string sentence);
     // 846. Hand of Straights
