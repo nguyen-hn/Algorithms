@@ -24,6 +24,8 @@ int main() {
 
     vector<int> nums {3,2,1,2,1,7};
     assert(sol.minIncrementForUnique(nums) == 6);
-
+    
+    int c = 5;
+    assert(sol.judgeSquareSum(c));
     return 0;
 }
