@@ -27,5 +27,10 @@ int main() {
     
     int c = 5;
     assert(sol.judgeSquareSum(c));
+
+    vector<int> difficulty {2,4,6,8,10};
+    vector<int> profit {10,20,30,40,50};
+    vector<int> worker {4,5,6,7};
+    assert(sol.maxProfitAssignment(difficulty, profit, worker) == 100);
     return 0;
 }
