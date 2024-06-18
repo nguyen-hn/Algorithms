@@ -34,6 +34,8 @@ public:
     bool judgeSquareSum(int c);
     // 648 Replace Words
     string replaceWords(vector<string>& dictionary, string sentence);
+    // Most Profit Assigning Work
+    int maxProfitAssignment(vector<int>& difficulty, vector<int>& profit, vector<int>& worker);
     // 846. Hand of Straights
     bool isNStraightHand(vector<int>& hand, int groupSize);
     // 945 Minimum Increment to Make Array Unique
