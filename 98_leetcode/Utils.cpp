@@ -52,3 +52,17 @@ int Solution::height(TreeNode* root) {
     if (root == nullptr) return 0;
     return 1 + max(height(root->left), height(root->right));
 }
+
+void Solution::findSubset(vector<int>& arr, int target, vector<int>& s, vector<vector<int>>& sub, int id)
+{
+    if (target == 0) {
+        sub.push_back(s);
+        return;
+    }
+    while (id < arr.size() && target - arr[id] >= 0) {
+        s.push_back(arr[id]);
+        findSubset(arr, target - arr[id], s, sub, id);
+        id++;
+        sub.pop_back();
+    }
+}

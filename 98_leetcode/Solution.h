@@ -22,6 +22,8 @@ struct TreeNode {
 
 class Solution {
 public:
+    // 39 Combination Sum
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target);
     // 75 Sort Colors
     void sortColors(vector<int>& nums);
     // 110 Balanced Binary Tree
@@ -73,6 +75,8 @@ protected:
 
     void insert_key(TrieNode* root, string& key);
     string search_root(TrieNode* root, string& key);
+
+    void findSubset(vector<int>& arr, int k, vector<int>& r, vector<vector<int>>& subset, int id);
 
     int height(TreeNode *root);
 
