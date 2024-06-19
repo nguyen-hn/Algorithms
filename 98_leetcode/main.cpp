@@ -32,5 +32,8 @@ int main() {
     vector<int> profit {10,20,30,40,50};
     vector<int> worker {4,5,6,7};
     assert(sol.maxProfitAssignment(difficulty, profit, worker) == 100);
+
+    vector<int> bloomDay = {1,10,3,10,2};
+    assert(sol.minDays(bloomDay, 3, 2) == -1);
     return 0;
 }
