@@ -36,6 +36,7 @@ public:
     void DigitFactorials(); // 20
     void CircularPrimes(); // 21
     void CoinSums();
+    void ConsecutivePrimeSum(); // 50
 private:
     void sieveEratosthenes(int n);
     int sumFactors(int n);
