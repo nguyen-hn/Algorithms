@@ -35,12 +35,13 @@ public:
     void PrimePermutations(); // 19
     void DigitFactorials(); // 20
     void CircularPrimes(); // 21
+    void CoinSums();
 private:
     void sieveEratosthenes(int n);
     int sumFactors(int n);
 
     int dfs(int x, int y, std::vector<std::vector<int>> &adj, std::vector<int>& path);
-
+    void count(std::vector<int>& arr, int target, int id, int &cnt);
     std::vector<int> primes;
 };
 
