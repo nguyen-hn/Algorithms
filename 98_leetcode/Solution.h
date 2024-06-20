@@ -51,6 +51,8 @@ public:
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2);
     // 1482 Minimum Number of Days to Make m Bouquets
     int minDays(vector<int>& bloomDay, int m, int k);
+    // 1552 Magnetic Force Between Two Balls
+    int maxDistance(vector<int>& position, int m);
     // 1970 Last Day Where You can Still Cross
     int latestDayToCross(int row, int col, vector<vector<int>>& cells);
     // 2037 Minimum Number of Move to Sear Everyone

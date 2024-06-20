@@ -35,5 +35,9 @@ int main() {
 
     vector<int> bloomDay = {1,10,3,10,2};
     assert(sol.minDays(bloomDay, 3, 2) == -1);
+    
+    vector<int> position = {1,2,3,4,7};
+    int m = 3;
+    assert(sol.maxDistance(position, m) == 3);
     return 0;
 }
