@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <map>
 #include <cmath>
+#include <deque>
 
 class ProjectEuler {
 public:

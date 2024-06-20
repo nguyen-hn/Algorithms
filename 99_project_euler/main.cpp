@@ -32,6 +32,7 @@ int main() {
     //euler.MaximumPathSumI();
     //euler.CountingSundays();
     //euler.CoinSums();
-    euler.ConsecutivePrimeSum();
+    //euler.ConsecutivePrimeSum();
+    euler.FactorialDigitSum();
     return 0;
 }
