@@ -57,6 +57,8 @@ public:
     int latestDayToCross(int row, int col, vector<vector<int>>& cells);
     // 2037 Minimum Number of Move to Sear Everyone
     int minMovesToSeat(vector<int>& seats, vector<int>& students);
+    // 2064 Minimized Maximum of Products Distributed to Any Store
+    int minimizedMaximum(int n, vector<int>& quantities);
     // 3174 Clear Digits
     string clearDigits(string s);
     // 3175 Find the First Player to Win K Game in a Row

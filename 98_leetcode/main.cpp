@@ -39,5 +39,8 @@ int main() {
     vector<int> position = {1,2,3,4,7};
     int m = 3;
     assert(sol.maxDistance(position, m) == 3);
+
+    vector<int> quantities{11,6};
+    assert(sol.minimizedMaximum(6, quantities) == 3);
     return 0;
 }
