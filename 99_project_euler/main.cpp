@@ -33,6 +33,7 @@ int main() {
     //euler.CountingSundays();
     //euler.CoinSums();
     //euler.ConsecutivePrimeSum();
-    euler.FactorialDigitSum();
+    //euler.FactorialDigitSum();
+    euler.NonAbundantSums();
     return 0;
 }
