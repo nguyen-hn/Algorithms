@@ -42,5 +42,10 @@ int main() {
 
     vector<int> quantities{11,6};
     assert(sol.minimizedMaximum(6, quantities) == 3);
+
+    vector<int> customers = {1,0,1,2,1,1,7,5};
+    vector<int> grumpy = {0,1,0,1,0,1,0,1};
+    int minutes = 3;
+    assert(sol.maxSatisfied(customers, grumpy, minutes) == 16);
     return 0;
 }

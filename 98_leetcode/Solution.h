@@ -47,6 +47,8 @@ public:
     int subarrayDibByK(vector<int>& nums, int k);
     // 1051 Height Checker
     int heightChecker(vector<int>& heights);
+    // 1052 Grumpy Bookstore Owner
+    int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int minutes);
     // 1122 Relative Sort Array
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2);
     // 1482 Minimum Number of Days to Make m Bouquets
