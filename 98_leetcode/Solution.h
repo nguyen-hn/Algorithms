@@ -51,6 +51,8 @@ public:
     int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int minutes);
     // 1122 Relative Sort Array
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2);
+    // 1248 Count Number of Nice Subarrays
+    int numberOfSubarrays(vector<int>& nums, int k);
     // 1482 Minimum Number of Days to Make m Bouquets
     int minDays(vector<int>& bloomDay, int m, int k);
     // 1552 Magnetic Force Between Two Balls

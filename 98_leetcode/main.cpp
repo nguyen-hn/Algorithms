@@ -47,5 +47,9 @@ int main() {
     vector<int> grumpy = {0,1,0,1,0,1,0,1};
     int minutes = 3;
     assert(sol.maxSatisfied(customers, grumpy, minutes) == 16);
+
+    nums.clear();
+    nums = {1,1,2,1,1};
+    assert(sol.numberOfSubarrays(nums, 3) == 2);
     return 0;
 }
