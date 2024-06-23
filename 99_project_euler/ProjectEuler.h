@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <map>
 #include <cmath>
+#include <deque>
 
 class ProjectEuler {
 public:
@@ -31,11 +32,13 @@ public:
     void MaximumPathSumI(); // 18
     void CountingSundays(); // 19
     void FactorialDigitSum(); // 20
-    void AmicableNumbers(); // 18
-    void PrimePermutations(); // 19
-    void DigitFactorials(); // 20
-    void CircularPrimes(); // 21
-    void CoinSums();
+    void AmicableNumbers(); // 21
+    void NonAbundantSums(); // 22
+    void CoinSums(); // 31
+    void DigitFactorials(); // 34
+    void CircularPrimes(); // 35
+    void PrimePermutations(); // 49
+    void ConsecutivePrimeSum(); // 50
 private:
     void sieveEratosthenes(int n);
     int sumFactors(int n);
