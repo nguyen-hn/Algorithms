@@ -35,5 +35,30 @@ int main() {
 
     vector<int> bloomDay = {1,10,3,10,2};
     assert(sol.minDays(bloomDay, 3, 2) == -1);
+    
+    vector<int> position = {1,2,3,4,7};
+    int m = 3;
+    assert(sol.maxDistance(position, m) == 3);
+
+    vector<int> quantities{11,6};
+    assert(sol.minimizedMaximum(6, quantities) == 3);
+
+    vector<int> customers = {1,0,1,2,1,1,7,5};
+    vector<int> grumpy = {0,1,0,1,0,1,0,1};
+    int minutes = 3;
+    assert(sol.maxSatisfied(customers, grumpy, minutes) == 16);
+
+    nums.clear();
+    nums = {1,1,2,1,1};
+    assert(sol.numberOfSubarrays(nums, 3) == 2);
+
+    nums.clear();
+    nums = {8,2,4,7};
+    assert(sol.longestSubarray(nums, 4) == 2);
+
+
+    nums.clear();
+    nums = {7,8,3,4,15,13,4,1};
+    assert(sol.minimumAverage(nums) == 5.5);
     return 0;
 }

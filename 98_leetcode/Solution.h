@@ -9,6 +9,7 @@
 #include <cassert>
 #include <cmath>
 #include <iostream>
+#include <set>
 
 using namespace std;
 
@@ -47,18 +48,34 @@ public:
     int subarrayDibByK(vector<int>& nums, int k);
     // 1051 Height Checker
     int heightChecker(vector<int>& heights);
+    // 1052 Grumpy Bookstore Owner
+    int maxSatisfied(vector<int>& customers, vector<int>& grumpy, int minutes);
     // 1122 Relative Sort Array
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2);
+    // 1248 Count Number of Nice Subarrays
+    int numberOfSubarrays(vector<int>& nums, int k);
+    // 1438 Longest Continuous Subarray With Absolute Diff Less than or Equal to Limit
+    int longestSubarray(vector<int>& nums, int limit);
     // 1482 Minimum Number of Days to Make m Bouquets
     int minDays(vector<int>& bloomDay, int m, int k);
+    // 1552 Magnetic Force Between Two Balls
+    int maxDistance(vector<int>& position, int m);
     // 1970 Last Day Where You can Still Cross
     int latestDayToCross(int row, int col, vector<vector<int>>& cells);
     // 2037 Minimum Number of Move to Sear Everyone
     int minMovesToSeat(vector<int>& seats, vector<int>& students);
+    // 2064 Minimized Maximum of Products Distributed to Any Store
+    int minimizedMaximum(int n, vector<int>& quantities);
     // 3174 Clear Digits
     string clearDigits(string s);
     // 3175 Find the First Player to Win K Game in a Row
     int findWinningPlayer(vector<int>& skills, int k);
+    // 3194 Minimum Average of Smallest and Largest Elements
+    double minimumAverage(vector<int>& nums);
+    // 3195 Find the Minimum Area to Cover All Ones I
+    int minimumArea(vector<vector<int>>& grid);
+    // 3196 Maximize Total Cost of Alternating Subarrays
+    long long maximumTotalCost(vector<int>& nums);
 private:
     std::vector<std::vector<int>> direction{{1,0}, {0,1}, {-1, 0}, {0,-1}};
 
