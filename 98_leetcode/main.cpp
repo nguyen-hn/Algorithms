@@ -51,5 +51,9 @@ int main() {
     nums.clear();
     nums = {1,1,2,1,1};
     assert(sol.numberOfSubarrays(nums, 3) == 2);
+
+    nums.clear();
+    nums = {8,2,4,7};
+    assert(sol.longestSubarray(nums, 4) == 2);
     return 0;
 }

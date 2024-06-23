@@ -9,6 +9,7 @@
 #include <cassert>
 #include <cmath>
 #include <iostream>
+#include <set>
 
 using namespace std;
 
@@ -53,6 +54,8 @@ public:
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2);
     // 1248 Count Number of Nice Subarrays
     int numberOfSubarrays(vector<int>& nums, int k);
+    // 1438 Longest Continuous Subarray With Absolute Diff Less than or Equal to Limit
+    int longestSubarray(vector<int>& nums, int limit);
     // 1482 Minimum Number of Days to Make m Bouquets
     int minDays(vector<int>& bloomDay, int m, int k);
     // 1552 Magnetic Force Between Two Balls
