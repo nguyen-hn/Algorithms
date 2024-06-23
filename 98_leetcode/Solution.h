@@ -70,6 +70,12 @@ public:
     string clearDigits(string s);
     // 3175 Find the First Player to Win K Game in a Row
     int findWinningPlayer(vector<int>& skills, int k);
+    // 3194 Minimum Average of Smallest and Largest Elements
+    double minimumAverage(vector<int>& nums);
+    // 3195 Find the Minimum Area to Cover All Ones I
+    int minimumArea(vector<vector<int>>& grid);
+    // 3196 Maximize Total Cost of Alternating Subarrays
+    long long maximumTotalCost(vector<int>& nums);
 private:
     std::vector<std::vector<int>> direction{{1,0}, {0,1}, {-1, 0}, {0,-1}};
 

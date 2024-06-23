@@ -55,5 +55,10 @@ int main() {
     nums.clear();
     nums = {8,2,4,7};
     assert(sol.longestSubarray(nums, 4) == 2);
+
+
+    nums.clear();
+    nums = {7,8,3,4,15,13,4,1};
+    assert(sol.minimumAverage(nums) == 5.5);
     return 0;
 }
