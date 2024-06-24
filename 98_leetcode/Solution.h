@@ -46,6 +46,8 @@ public:
     int minIncrementForUnique(vector<int>& nums);
     // 974 Subarray Sums Divisible by K
     int subarrayDibByK(vector<int>& nums, int k);
+    // 995 Minimum Number of K Consecutive Bit Flips
+    int minKBitFlips(vector<int>& nums, int k);
     // 1051 Height Checker
     int heightChecker(vector<int>& heights);
     // 1052 Grumpy Bookstore Owner
