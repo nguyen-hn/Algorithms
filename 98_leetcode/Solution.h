@@ -56,6 +56,8 @@ public:
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2);
     // 1248 Count Number of Nice Subarrays
     int numberOfSubarrays(vector<int>& nums, int k);
+    // 1382 Balance a Binary Search Tree
+    TreeNode* balanceBST(TreeNode* root);
     // 1438 Longest Continuous Subarray With Absolute Diff Less than or Equal to Limit
     int longestSubarray(vector<int>& nums, int limit);
     // 1482 Minimum Number of Days to Make m Bouquets
@@ -97,6 +99,7 @@ protected:
     };
 
 
+
     void insert_key(TrieNode* root, string& key);
     string search_root(TrieNode* root, string& key);
 
@@ -105,6 +108,9 @@ protected:
     int height(TreeNode *root);
 
     bool dfs(int x, int y, vector<vector<int>>& grid, vector<vector<bool>>& visited);
+
+    void inorder(TreeNode* root, vector<int>& inorderval);
+    TreeNode* inorderToBST(int s, int e, vector<int>& inorderVal);
 };
 
 #endif // SOLUTION_H

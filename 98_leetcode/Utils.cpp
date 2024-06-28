@@ -66,3 +66,22 @@ void Solution::findSubset(vector<int>& arr, int target, vector<int>& s, vector<v
         sub.pop_back();
     }
 }
+
+void Solution::inorder(TreeNode* root, vector<int>& inorderval) {
+    if (root == nullptr) return;
+    inorder(root->left, inorderval);
+    inorderval.push_back(root->val);
+    inorder(root->right, inorderval);
+}
+
+TreeNode* Solution::inorderToBST(int s, int e, vector<int>& inorderval) {
+    if (s > e) return nullptr;
+
+    int mid = (s+e)/2;
+
+    TreeNode* temp = new TreeNode(inorderval[mid]);
+    temp->left = inorderToBST(s, mid - 1, inorderval);
+    temp->right = inorderToBST(mid + 1, e, inorderval);
+
+    return temp;
+}
