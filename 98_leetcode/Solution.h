@@ -68,6 +68,8 @@ public:
     int minMovesToSeat(vector<int>& seats, vector<int>& students);
     // 2064 Minimized Maximum of Products Distributed to Any Store
     int minimizedMaximum(int n, vector<int>& quantities);
+    // 2285 Maximum Total Importance Roads
+    long long maximumImportance(int n, vector<vector<int>>& roads);
     // 3174 Clear Digits
     string clearDigits(string s);
     // 3175 Find the First Player to Win K Game in a Row
