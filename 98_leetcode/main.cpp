@@ -60,5 +60,8 @@ int main() {
     nums.clear();
     nums = {7,8,3,4,15,13,4,1};
     assert(sol.minimumAverage(nums) == 5.5);
+
+    vector<vector<int>> roads = {{0,1}, {1,2}, {2,3}, {0,2}, {1,3}, {2,4}};
+    assert(sol.maximumImportance(5, roads) == 43);
     return 0;
 }
