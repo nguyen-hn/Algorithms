@@ -30,6 +30,8 @@ public:
     void sortColors(vector<int>& nums);
     // 110 Balanced Binary Tree
     bool isBalanced(TreeNode* root);
+    // 179 Largest Number
+    string largestNumber(vector<int>& nums);
     // 390 Elimination Game
     int lastRemaining(int n);
     // 523 Continuous Subarray Sum
