@@ -3,27 +3,48 @@
 
 #include <iostream>
 #include <vector>
+#include <cmath>
+#include <numeric>
+#include <algorithm>
+#include <map>
+#include <cmath>
+#include <deque>
 
 class ProjectEuler {
 public:
-    void MultiplesOf3And5();
-    void EvenFibonacciNumbers();
-    void LargestPrimeFactor();
-    void LargestPalindromeProduct();
-    void SmallestMultiple();
-    void SumSquareDifference();
-    void TenThousandOnePrime();
-    void LargestProductInSeries();
-    void SpecialPythagoreanTriplet();
-    void SummationOfPrimes();
-    void LargestProductInGrid();
-    void HighlyDivisibleTriangularNumber();
-    void LargeSum();
-    void LongestCollatzSequence();
-    void LatticePaths();
+    void MultiplesOf3And5(); // 1
+    void EvenFibonacciNumbers(); // 2
+    void LargestPrimeFactor(); // 3
+    void LargestPalindromeProduct(); // 4
+    void SmallestMultiple(); // 5
+    void SumSquareDifference(); // 6
+    void TenThousandOnePrime(); // 7
+    void LargestProductInSeries(); // 8
+    void SpecialPythagoreanTriplet(); //9
+    void SummationOfPrimes(); //10
+    void LargestProductInGrid(); // 11
+    void HighlyDivisibleTriangularNumber(); // 12
+    void LargeSum(); // 13
+    void LongestCollatzSequence(); // 14
+    void LatticePaths(); // 15
+    void PowerDigitSum(); // 16
+    void NumberLetterCounts(); // 17
+    void MaximumPathSumI(); // 18
+    void CountingSundays(); // 19
+    void FactorialDigitSum(); // 20
+    void AmicableNumbers(); // 21
+    void NonAbundantSums(); // 22
+    void CoinSums(); // 31
+    void DigitFactorials(); // 34
+    void CircularPrimes(); // 35
+    void PrimePermutations(); // 49
+    void ConsecutivePrimeSum(); // 50
 private:
     void sieveEratosthenes(int n);
+    int sumFactors(int n);
 
+    int dfs(int x, int y, std::vector<std::vector<int>> &adj, std::vector<int>& path);
+    void count(std::vector<int>& arr, int target, int id, int &cnt);
     std::vector<int> primes;
 };
 
