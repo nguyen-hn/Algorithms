@@ -35,5 +35,6 @@ int main() {
     //euler.ConsecutivePrimeSum();
     //euler.FactorialDigitSum();
     euler.NonAbundantSums();
+
     return 0;
 }

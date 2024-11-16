@@ -30,6 +30,8 @@ public:
     void sortColors(vector<int>& nums);
     // 110 Balanced Binary Tree
     bool isBalanced(TreeNode* root);
+    // 179 Largest Number
+    string largestNumber(vector<int>& nums);
     // 390 Elimination Game
     int lastRemaining(int n);
     // 523 Continuous Subarray Sum
@@ -46,6 +48,8 @@ public:
     int minIncrementForUnique(vector<int>& nums);
     // 974 Subarray Sums Divisible by K
     int subarrayDibByK(vector<int>& nums, int k);
+    // 995 Minimum Number of K Consecutive Bit Flips
+    int minKBitFlips(vector<int>& nums, int k);
     // 1051 Height Checker
     int heightChecker(vector<int>& heights);
     // 1052 Grumpy Bookstore Owner
@@ -54,6 +58,8 @@ public:
     vector<int> relativeSortArray(vector<int>& arr1, vector<int>& arr2);
     // 1248 Count Number of Nice Subarrays
     int numberOfSubarrays(vector<int>& nums, int k);
+    // 1382 Balance a Binary Search Tree
+    TreeNode* balanceBST(TreeNode* root);
     // 1438 Longest Continuous Subarray With Absolute Diff Less than or Equal to Limit
     int longestSubarray(vector<int>& nums, int limit);
     // 1482 Minimum Number of Days to Make m Bouquets
@@ -66,6 +72,8 @@ public:
     int minMovesToSeat(vector<int>& seats, vector<int>& students);
     // 2064 Minimized Maximum of Products Distributed to Any Store
     int minimizedMaximum(int n, vector<int>& quantities);
+    // 2285 Maximum Total Importance Roads
+    long long maximumImportance(int n, vector<vector<int>>& roads);
     // 3174 Clear Digits
     string clearDigits(string s);
     // 3175 Find the First Player to Win K Game in a Row
@@ -76,6 +84,8 @@ public:
     int minimumArea(vector<vector<int>>& grid);
     // 3196 Maximize Total Cost of Alternating Subarrays
     long long maximumTotalCost(vector<int>& nums);
+    // 3254 Find the Power of  K_Size Subarrays I
+    vector<int> resultsArray(vector<int>& nums, int k);
 private:
     std::vector<std::vector<int>> direction{{1,0}, {0,1}, {-1, 0}, {0,-1}};
 
@@ -93,6 +103,7 @@ protected:
     };
 
 
+
     void insert_key(TrieNode* root, string& key);
     string search_root(TrieNode* root, string& key);
 
@@ -101,6 +112,9 @@ protected:
     int height(TreeNode *root);
 
     bool dfs(int x, int y, vector<vector<int>>& grid, vector<vector<bool>>& visited);
+
+    void inorder(TreeNode* root, vector<int>& inorderval);
+    TreeNode* inorderToBST(int s, int e, vector<int>& inorderVal);
 };
 
 #endif // SOLUTION_H

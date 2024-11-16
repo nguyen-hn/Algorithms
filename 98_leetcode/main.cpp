@@ -60,5 +60,17 @@ int main() {
     nums.clear();
     nums = {7,8,3,4,15,13,4,1};
     assert(sol.minimumAverage(nums) == 5.5);
+
+    vector<vector<int>> roads = {{0,1}, {1,2}, {2,3}, {0,2}, {1,3}, {2,4}};
+    assert(sol.maximumImportance(5, roads) == 43);
+
+    nums.clear();
+    nums = {3,30,34,5,9};
+    assert(sol.largestNumber(nums) == "9534330");
+
+    nums.clear();
+    nums = {1,2,3,4,3,2,5};
+    k = 3;
+    sol.resultsArray(nums, k);
     return 0;
 }
