@@ -67,5 +67,10 @@ int main() {
     nums.clear();
     nums = {3,30,34,5,9};
     assert(sol.largestNumber(nums) == "9534330");
+
+    nums.clear();
+    nums = {1,2,3,4,3,2,5};
+    k = 3;
+    sol.resultsArray(nums, k);
     return 0;
 }

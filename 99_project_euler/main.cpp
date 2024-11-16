@@ -24,5 +24,7 @@ int main() {
     euler.LongestCollatzSequence();
     euler.LatticePaths();
 
+
+    //
     return 0;
 }

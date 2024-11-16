@@ -84,6 +84,8 @@ public:
     int minimumArea(vector<vector<int>>& grid);
     // 3196 Maximize Total Cost of Alternating Subarrays
     long long maximumTotalCost(vector<int>& nums);
+    // 3254 Find the Power of  K_Size Subarrays I
+    vector<int> resultsArray(vector<int>& nums, int k);
 private:
     std::vector<std::vector<int>> direction{{1,0}, {0,1}, {-1, 0}, {0,-1}};
 
