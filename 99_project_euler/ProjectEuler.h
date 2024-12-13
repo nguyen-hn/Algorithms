@@ -34,6 +34,7 @@ public:
     void FactorialDigitSum(); // 20
     void AmicableNumbers(); // 21
     void NonAbundantSums(); // 22
+    void DistinctPowers(); // 29
     void CoinSums(); // 31
     void DigitFactorials(); // 34
     void CircularPrimes(); // 35
