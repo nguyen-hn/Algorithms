@@ -78,6 +78,8 @@ public:
     string clearDigits(string s);
     // 3175 Find the First Player to Win K Game in a Row
     int findWinningPlayer(vector<int>& skills, int k);
+    // 3186 Maximum total damage with spell casting
+    long long maximumTotalDamage(vector<int>& power):
     // 3194 Minimum Average of Smallest and Largest Elements
     double minimumAverage(vector<int>& nums);
     // 3195 Find the Minimum Area to Cover All Ones I
