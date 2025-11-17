@@ -12,6 +12,7 @@
 #include <set>
 
 using namespace std;
+using ll = long long;
 
 struct TreeNode {
     int val;
@@ -79,7 +80,7 @@ public:
     // 3175 Find the First Player to Win K Game in a Row
     int findWinningPlayer(vector<int>& skills, int k);
     // 3186 Maximum total damage with spell casting
-    long long maximumTotalDamage(vector<int>& power):
+    long long maximumTotalDamage(vector<int>& power);
     // 3194 Minimum Average of Smallest and Largest Elements
     double minimumAverage(vector<int>& nums);
     // 3195 Find the Minimum Area to Cover All Ones I
@@ -88,6 +89,9 @@ public:
     long long maximumTotalCost(vector<int>& nums);
     // 3254 Find the Power of  K_Size Subarrays I
     vector<int> resultsArray(vector<int>& nums, int k);
+
+    // 3747 Count Distinct Integers After Removing Zeros
+    long long countDistinct(long long n);
 private:
     std::vector<std::vector<int>> direction{{1,0}, {0,1}, {-1, 0}, {0,-1}};
 
